@@ -1,1 +1,1 @@
-# OrgaizacaoEstruturaArquivos
+# OrganizacaoEstruturaArquivos
