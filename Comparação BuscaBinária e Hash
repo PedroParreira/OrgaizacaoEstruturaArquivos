@@ -73,10 +73,11 @@ f2 = open("cep-hash.dat", "rb+")
 
 line = f.read(structCEP.size)
 
-fi.seek(0,os.SEEK_END)
-fileIndexSize = fi.tell()
-print "IndexFileSize", fileIndexSize
-
+#testar no lugar da line anterior?
+#fi.seek(0,os.SEEK_END)
+#fileIndexSize = fi.tell()
+#print "fileIndexSize", fileIndexSize
+#fi.seek(0,os.SEEK_END)
 
 recordNumber = 0
 
@@ -95,7 +96,8 @@ while line != "":
 		f2.write(hashStruct.pack(k[0], k[1], os.getsize("cep-hash.dat")))
 		f2.seek(0,2)
 		f2.write(hashStruct.pack(var[cepColumn], recordNumber, nextPointer))
-
+		#f.tell()?
+		
 	recordNumber = recordNumber + 1
 	line = f.read(structCEP.size)
 
