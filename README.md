@@ -2,7 +2,7 @@
 
 *Pedro Parreira*
 
-##Trabalho Final
+## Trabalho Final
 
 O trabalho consiste em fazer a comparação dos algoritmos de Busca Binária e Hash, com arquivos nos mais variados tamanhos e fazendo
 uma análise geral com relação aos dois algoritmos nos quesitos de quando um é melhor que o outro e tempo de execução.
